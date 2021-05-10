@@ -18,7 +18,7 @@ Missions including several targets, such as NASA Cassini, will go for target bod
 
 ## NASA LRO
 
-#### LROCO 
+#### LROC
 
 * [moon_lro_lroc_dem_and_sfs.md](moon_lro_lroc_dem_and_sfs.md) - contributed by Riccardo Pozzobon
 
