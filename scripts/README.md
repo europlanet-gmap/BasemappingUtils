@@ -12,7 +12,7 @@ Missions including several targets, such as NASA Cassini, will go for target bod
 
 #### CTX 
 
-* [mars_mro_ctx_processing.md](mars_mro_ctx_processing.md) - contribured by Riccardo Pozzobon
+* [mars_mro_ctx_processing.md](mars_mro_ctx_processing.md) - contributed by Riccardo Pozzobon
 
 ### Moon
 
