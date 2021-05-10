@@ -4,7 +4,7 @@ Contributed pipeline scripts, instructions and individual command usage descriot
 
 Contributed scripts (that will go onto documentation, too) are divided by Targed Body, and for those with several datasets, by datasets. 
 
-Missions including several targets, such as NASA Cassini, will go for Body and experiment(s).
+Missions including several targets, such as NASA Cassini, will go for target bodies and experiments (similar processing but different target_body and CRS, so to say).
 
 ## Mars
 
