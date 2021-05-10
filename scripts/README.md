@@ -28,4 +28,10 @@ TBA
 
 ### Dawn (Ceres and Vesta)
 
+# Undigested resources and scripts / tools
+
+Those scripts or tools have not been placed yet, but should be at least documented / linked to:
+
+* ASAP STEREO (to automate and reproduce ASP) - https://github.com/AndrewAnnex/asap_stereo - https://asap-stereo.readthedocs.io/
+* Erica's scripts for ASP - https://github.com/ericaluzzi/CTX-HiRISE-processing-DEM
 
