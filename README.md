@@ -15,3 +15,7 @@ For the time being there are two directories:
 * [notebooks](./notebooks) - collecting notebooks
 
 All files should have a self-explaining name. Markdwon individual files, also with self-explaining names, can be in the scripts directory or in the root.
+
+## Resources
+
+* [Berker, K. LPSC2015 ISIS @ messenger data workshop ](https://messenger.jhuapl.edu/Resources/Workshops-and-Meetings/MESSENGER_MDIS_WorkShop_LPSC2015_Final.pdf)
