@@ -43,6 +43,9 @@ Where:
 - `-p 8000:8000` tell docker to use port 8000 to connect to ISIS3-JupyterHub web interface
 - `-v "$PWD":"/mnt/data"` is _binding_/_mounting_ the current directory (`PWD`) to container's `/mnt/data`
 
+#### Authentication
+
+If 
 
 ## Contributors
 
