@@ -8,7 +8,7 @@ For the time being there are two directories:
 * [notebooks](./notebooks) - jupyter-notebook examples, typically using Python libraries, with explanation
 
 
-### Docker containers
+## Docker containers
 
 A set of Docker containers is provided to optimize the use of shared workflows and to remove the overhead
 of setting up the software stack.
@@ -21,10 +21,30 @@ Detailed information about the use and different flavors for each set of docker 
 be found in their respective repositories in GMAP GitHub org, here below are the containers
 we judge more useful for this community:
 
-- `gmap/isis3:jupyterhub`: this container is the same one provided on our premises, [jupyter.europlanet-gmap.eu](https://jupyter.europlanet-gmap.eu)
+- `chbrandt/isis3:jupyterhub`: this container is the same one provided on our premises, [jupyter.europlanet-gmap.eu](https://jupyter.europlanet-gmap.eu)
   * provides ISIS3, Python GIS libraries, GDAL 3.3
 
-### Contributors
+### ISIS3 + Jupyter-Hub 
+
+"ISIS3DATA" is not included in the container, the user must _mount_ a local copy of "ISISDATA"
+in the container's `/isis/data`. The example below show how to do it.
+
+```bash
+$ docker run -it --rm --name isis3_jupyter \
+    -p 8000:8000 \
+    -v "$PWD":"/mnt/data" \
+    -v "/path/to/isis3data":"/isis/data" \
+    chbrandt/isis3:jupyterhub
+```
+
+Where:
+
+- `-v "/path/to/isis3data":"/isis/data"`, supposedly `ISIS3DATA` is at `/path/to/isis3data`, mount it to container's `/isis/data`
+- `-p 8000:8000` tell docker to use port 8000 to connect to ISIS3-JupyterHub web interface
+- `-v "$PWD":"/mnt/data"` is _binding_/_mounting_ the current directory (`PWD`) to container's `/mnt/data`
+
+
+## Contributors
 
 Always include information about the environment each notebook/script is necessary to run.
 For example, the software versions being used or environment variables if relevant.
