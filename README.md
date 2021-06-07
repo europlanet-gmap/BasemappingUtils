@@ -1,4 +1,4 @@
-# image_processing_JRA_internal
+# Exemplary image data workflows for basemap generation
 
 This repo is to share, test exemplary image processing steps and pipelines for use within ISIS on GMAP cloud services.
 
